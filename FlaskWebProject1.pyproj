@@ -30,6 +30,12 @@
     <Compile Include="app.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Procfile">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="README.md">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="requirements.txt" />
     <Content Include="static\css\main.css" />
     <Content Include="templates\base.html" />
