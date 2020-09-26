@@ -37,6 +37,8 @@
       <SubType>Code</SubType>
     </Content>
     <Content Include="requirements.txt" />
+    <Content Include="static\css\bootstrap.min.css" />
+    <Content Include="static\css\bootstrap1.min.css" />
     <Content Include="static\css\main.css" />
     <Content Include="templates\base.html" />
     <Content Include="templates\index.html" />

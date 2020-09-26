@@ -4,7 +4,13 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap1.min.css') }}" />
+    <style type="text/css">
+        body {
+            background: linear-gradient(145deg, #34d8ed 50%,#349aed 100%) !important;
+        }
+        /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+    </style>
     <title></title>
     {% block head %}{% endblock %}
 </head>
